@@ -194,7 +194,6 @@ footer{
 	width: 100%;
 	height: 100px;
 	background-color: #f0f0f0;
-	/*border: 1px solid red;*/
 	overflow: hidden;
 }
 .footer-se{
@@ -203,7 +202,6 @@ footer{
 .terms{
 	width: 30%;
 	float: left;
-	/*border: 1px solid red;*/
 }
 .terms ul{
 	margin: 0 0;
@@ -226,7 +224,6 @@ footer{
 	color: #000000;
 	float: right;
 	width: 20%;
-	/*border: 1px solid red;*/
 }
 .follow ul{
 	margin: 0 0;
