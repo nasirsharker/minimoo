@@ -1,0 +1,250 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 13px;
+}
+.logo img{
+	width: 100%;
+	cursor: pointer;
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 50px;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 2px solid #626262;
+}
+/*header end*/
+/*baner start*/
+.banner{}
+.b-image{}
+.b-image img{
+	width: 100%;
+	cursor: pointer;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding: 70px 0;
+	/*border: 1px solid red;*/
+}
+.continer2{
+	width: 80%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.g-content{}
+.p-light{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 0;
+}
+.c-title{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 30px 0;
+}
+.c-p{
+	line-height: 25px;
+    word-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+/*getaway end*/
+/*blog start*/
+.blog{
+	padding: 70px 0;
+}
+.b-content{
+	overflow: hidden;
+}
+.single{
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+.single:nth-child(even){
+	margin-left: 5%;
+}
+.mb-child{
+	margin-bottom: 60px;
+}
+/* blog end*/
+/* news start*/
+.news{
+	padding: 70px 0;
+    /*border: 1px solid red;*/
+    background-color: #f0f0f0;
+}
+.signup{
+	text-align: center;
+}
+.n-title{
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.f-submit{
+	width: 400px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    position: relative;
+}	 
+.f-submit input{
+	font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 330px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+    padding-right: 47px;
+    padding-left: 0px;
+}
+.f-submit input:focus {
+	outline: 0;
+}
+.f-submit button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 12px;
+    right: 5px;
+}
+.f-submit button img{} 
+.f-submit button img:focus {
+	outline: 0;
+} 
+/*news end*/
+.b2-single{
+	border-bottom: 0;
+}
+/*load more start*/
+.load-more{
+	padding:100px 0;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+.load-more button{
+	width: 10%;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #626262;
+    background: transparent;
+    border: 1px solid #626262; 
+    transition: .3s;
+}
+.load-more button:hover {
+	background-color: #626262;
+	color: white;
+}
+/* load more end*/
+/*footer start*/
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #f0f0f0;
+	border: 1px solid red;
+	overflow: hidden;
+}
+.footer-se{
+	padding-top: 40px;
+}
+.terms{
+	width: 30%;
+	float: left;
+	border: 1px solid red;
+}
+.terms ul{
+	margin: 0 0;
+    padding-left: 0;
+}
+.terms ul li{
+	float: left;
+    list-style: none;
+    padding: 0 20px;
+}
+.terms ul li:first-child{
+	padding-left: 0;
+}
+.terms ul li a{
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+}
+.follow{
+	color: #000000;
+	float: right;
+	width: 20%;
+	border: 1px solid red;
+}
+.follow ul{
+	margin: 0 0;
+    padding-right: 0;
+}
+.follow ul li{
+	float: left;
+    list-style: none;
+    padding: 0 20px;
+}
+.follow ul li:last-child{
+	padding-right: 0;
+	margin-right: 0;
+}
+.follow ul li a{
+	text-decoration: none;
+	display: inline-block;
+}
+.follow ul li a img{}
+
+/*footer end*/
